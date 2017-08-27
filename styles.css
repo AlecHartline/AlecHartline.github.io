@@ -249,11 +249,14 @@ body {
      1px  1px 0 black;
 	 color: white;
 }
+/* TODO: Remove % on width/height, put in table*/
 .about img {
+	display: block;
+	max-width:350px;
+	max-height:350px;
+	width: auto;
+	height: auto;
 	border-radius: 10%;
-	width: 17%;
-	height: 17%;
-	margin-left: 25%;
 	box-shadow: 4px 4px 20px 0px black;
 	border: 2px solid white;
 }
@@ -263,10 +266,8 @@ body {
     text-justify: inter-word;
 	font-size: 24px;
 	color: white;
-	width: 25%;
     padding: 10px;
-    margin-right: 30%; 
-	margin-top: 5px;
+	width: 400px;
 }
 
 .contact {
