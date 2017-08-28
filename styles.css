@@ -12,12 +12,15 @@ body {
 	font-size: 100px;
 	text-shadow: 2px 2px 3px grey;
 	color: #091b38;
-	
+	background-color: white;
+	margin: 0;
+	padding-top: 75px;
+	padding-bottom: 50px;
 }
 
 .projectsContainer {
 	text-align:center;
-	background-color: white;
+	
 	border-style: solid;
 	border-top-width: 3px;
 	border-bottom-width: 3px;
@@ -200,6 +203,10 @@ body {
 .resumeDiv {
 	text-align: center;
 	background-color: white;
+	background-image: url("img/whitebackground.jpg");
+	background-attachment: fixed;
+	background-size: 512px 512px;
+	background-repeat: repeat;
 	border-style: solid;
 	border-top-width: 3px;
 	border-bottom-width: 3px;
@@ -249,7 +256,6 @@ body {
 
 .about {
 	text-align: center;
-	background-color: #091b38;
 	border-style: solid;
 	border-top-width: 3px;
 	border-bottom-width: 3px;
@@ -261,6 +267,7 @@ body {
 	background-attachment: fixed;
 	background-size: 512px 512px;
 	background-repeat: repeat;
+	z-index: -1;
 }
 
 .about h1 {
@@ -297,6 +304,10 @@ body {
 	text-align: center;
 	color: #091b38;
 	background-color: white;
+	background-image: url("img/whitebackground.jpg");
+	background-attachment: fixed;
+	background-size: 512px 512px;
+	background-repeat: repeat;
 	border-style: solid;
 	border-top-width: 3px;
 	border-bottom-width: 3px;
@@ -329,4 +340,5 @@ body {
 	padding: 1%;
 	width: auto;
 	background-color: white;
+
 }
