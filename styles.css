@@ -204,7 +204,6 @@ body {
 	text-align: center;
 	background-color: white;
 	background-image: url("img/whitebackground.jpg");
-	background-attachment: fixed;
 	background-size: 512px 512px;
 	background-repeat: repeat;
 	border-style: solid;
@@ -305,7 +304,6 @@ body {
 	color: #091b38;
 	background-color: white;
 	background-image: url("img/whitebackground.jpg");
-	background-attachment: fixed;
 	background-size: 512px 512px;
 	background-repeat: repeat;
 	border-style: solid;
